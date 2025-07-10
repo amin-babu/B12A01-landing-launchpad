@@ -17,6 +17,22 @@
   cursor: pointer;
 }
 
+.para-primary {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 100px 0;
+}
+
 /* -------------header section start----------- */
 
 header {
@@ -54,4 +70,28 @@ header .heading h1 {
   font-weight: 700;
   color: #252432;
   margin-bottom: 30px;
+}
+
+
+/* ----------action section--------- */
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-info h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+}
+
+.action-info p {
+  max-width: 500px;
+  margin: 12px 0;
+}
+
+.action img {
+  border-radius: 48px;
 }
