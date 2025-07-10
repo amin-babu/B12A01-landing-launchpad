@@ -40,6 +40,7 @@ header {
   display: flex;
   flex-direction: column;
   background-image: url('./Assets/Hero-bg.png');
+  background-position: center;
 }
 
 header nav {
@@ -94,4 +95,40 @@ header .heading h1 {
 
 .action img {
   border-radius: 48px;
+}
+
+/* --------------------Productive User Section---------------------- */
+
+.productive-user {
+  background-color: #4e47ff1a;
+  padding: 40px 0;
+  border-radius: 20px;
+}
+
+.productive-user h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+}
+
+.productive-user .prodictive {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.productive-user .prodictive h3 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  color: #4E47FF;
+}
+
+.productive-user .prodictive p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Inter', sans-serif;
 }
