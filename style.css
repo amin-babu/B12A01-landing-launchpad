@@ -261,6 +261,11 @@ header .heading h1 {
   border: 1px solid #D6DDED;
   border-radius: 10px;
   margin-bottom: 20px;
+  outline: none;
+}
+
+.form-container form input:focus, .form-container form textarea:focus {
+  border: 1px solid #4E47FF;
 }
 
 .form-container form input, .form-container form textarea::placeholder{
